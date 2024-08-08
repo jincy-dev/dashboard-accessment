@@ -5,7 +5,7 @@ import { FaBowlFood } from 'react-icons/fa6';
 
 const QuickLinks = () => {
   return (
-    <div className='col-span-4 h-min flex flex-col gap-4 bg-primaryBackground rounded-lg p-4'>
+    <div className='col-span-12 lg:col-span-4 h-min flex flex-col gap-4 bg-primaryBackground rounded-lg p-4'>
       <QuikLinkItem
         iconColor='#ea580c'
         icon={<FiTarget size={26} />}

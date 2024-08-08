@@ -8,7 +8,7 @@ type NetProfitProps = {
 };
 const NetProfit = ({ percentageType, percentage, value }: NetProfitProps) => {
   return (
-    <div className='col-span-4 items- justify-between flex gap-4 bg-primaryBackground rounded-lg p-4'>
+    <div className='col-span-12 lg:col-span-4 items- justify-between flex gap-4 bg-primaryBackground rounded-lg p-4'>
       <div className='flex flex-col justify-between'>
         <div>Net Profit</div>
         <div className='flex justify-between items-center'>

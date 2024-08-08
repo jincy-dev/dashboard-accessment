@@ -2,7 +2,7 @@ import { IoSearch } from "react-icons/io5";
 
 const Search = () => {
   return (
-    <div className='w-80 h-12 border-border1 border-2 items-center justify-center flex rounded-md my-auto px-2 gap-2'>
+    <div className='w-80 h-12 border-border1 border-2 items-center justify-center hidden sm:flex rounded-md my-auto px-2 gap-2'>
       <div>
         <IoSearch className='aspect-square flex' size={24} />
       </div>
